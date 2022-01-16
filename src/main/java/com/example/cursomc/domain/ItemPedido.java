@@ -21,7 +21,6 @@ public class ItemPedido implements Serializable {
 	private Double preco;
 	
 	public ItemPedido() {
-		
 	}
 
 	public ItemPedido(Pedido pedido, Produto produto, Double desconto, Integer quantidade, Double preco) {
