@@ -60,7 +60,8 @@ public class Categoria implements Serializable {
 	public int hashCode() {
 		return Objects.hash(id);
 	}
-
+	
+	//entender melhor o funcionamento dessa parte
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
